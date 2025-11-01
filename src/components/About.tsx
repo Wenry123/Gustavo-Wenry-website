@@ -1,4 +1,4 @@
-import { Code2, Zap, Target } from "lucide-react";
+  import { Code2, Zap, Target } from "lucide-react";
 import profileImage from "@/assets/gustavo-profile.png";
 
 const About = () => {

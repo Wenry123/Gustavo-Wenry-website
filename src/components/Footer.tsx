@@ -11,7 +11,8 @@ const Footer = () => {
                 GUSTAVO WENRY
               </div>
               <p className="text-sm text-muted-foreground">
-                O seu desenvolvedor web especializado em Landing Pages de alta conversão.
+                O seu desenvolvedor web especializado em Landing Pages de alta
+                conversão.
               </p>
             </div>
 
@@ -19,27 +20,42 @@ const Footer = () => {
               <h3 className="font-semibold mb-4">Navegação</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="#inicio" className="hover:text-primary transition-colors">
+                  <a
+                    href="#inicio"
+                    className="hover:text-primary transition-colors"
+                  >
                     Início
                   </a>
                 </li>
                 <li>
-                  <a href="#servicos" className="hover:text-primary transition-colors">
+                  <a
+                    href="#servicos"
+                    className="hover:text-primary transition-colors"
+                  >
                     Serviços
                   </a>
                 </li>
                 <li>
-                  <a href="#planos" className="hover:text-primary transition-colors">
+                  <a
+                    href="#planos"
+                    className="hover:text-primary transition-colors"
+                  >
                     Planos
                   </a>
                 </li>
                 <li>
-                  <a href="#depoimentos" className="hover:text-primary transition-colors">
+                  <a
+                    href="#depoimentos"
+                    className="hover:text-primary transition-colors"
+                  >
                     Depoimentos
                   </a>
                 </li>
                 <li>
-                  <a href="#contato" className="hover:text-primary transition-colors">
+                  <a
+                    href="#contato"
+                    className="hover:text-primary transition-colors"
+                  >
                     Contato
                   </a>
                 </li>
@@ -51,13 +67,13 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="https://instagram.com/wenry_"
+                    href="https://instagram.com/_wenry__  "
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Instagram className="w-4 h-4" />
-                    @wenry_
+                    @_wenry__
                   </a>
                 </li>
                 <li>
