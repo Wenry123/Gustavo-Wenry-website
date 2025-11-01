@@ -6,20 +6,22 @@ const Pricing = () => {
   const plans = [
     {
       name: "Start",
-      price: "R$ 497",
+      price: "R$ 597",
+      installments: "em até 3x sem juros",
       description: "Página simples com CTA para WhatsApp",
       features: [
         "Design profissional",
         "Botão WhatsApp integrado",
         "Responsivo (mobile + desktop)",
         "Domínio personalizado",
-        "Entrega em 3 dias",
+        "Entrega em 7 dias",
       ],
       highlighted: false,
     },
     {
       name: "Profissional",
       price: "R$ 997",
+      installments: "em até 3x sem juros",
       description: "Página completa com copy e design de alta conversão",
       features: [
         "Tudo do plano Start",
@@ -28,7 +30,7 @@ const Pricing = () => {
         "SEO básico otimizado",
         "Formulário de contato",
         "2 revisões incluídas",
-        "Entrega em 5 dias",
+        "Entrega em até 14 dias",
       ],
       highlighted: true,
       badge: "Mais Vendido",
@@ -36,6 +38,7 @@ const Pricing = () => {
     {
       name: "Premium",
       price: "R$ 1.497",
+      installments: "em até 3x sem juros",
       description: "Página com SEO, Google Analytics e acompanhamento mensal",
       features: [
         "Tudo do plano Profissional",
@@ -45,7 +48,7 @@ const Pricing = () => {
         "Acompanhamento mensal",
         "Suporte prioritário",
         "Revisões ilimitadas (30 dias)",
-        "Entrega em 7 dias",
+        "Entrega em até 14 dias",
       ],
       highlighted: false,
     },
@@ -94,6 +97,7 @@ const Pricing = () => {
                 <CardHeader className="text-center pb-8 pt-8">
                   <CardTitle className="text-2xl mb-2">{plan.name}</CardTitle>
                   <div className="text-4xl font-bold text-primary mb-2">{plan.price}</div>
+                  <p className="text-xs text-muted-foreground mb-2">{plan.installments}</p>
                   <p className="text-sm text-muted-foreground">{plan.description}</p>
                 </CardHeader>
 

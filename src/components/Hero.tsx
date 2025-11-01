@@ -63,7 +63,7 @@ const Hero = () => {
 
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="animate-slide-in">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">100+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">40</div>
               <div className="text-sm text-muted-foreground">Projetos entregues</div>
             </div>
             <div className="animate-slide-in delay-100">

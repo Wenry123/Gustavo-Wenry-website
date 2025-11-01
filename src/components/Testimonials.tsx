@@ -11,11 +11,11 @@ const Testimonials = () => {
       avatar: "MS",
     },
     {
-      name: "João Santos",
-      role: "Coach",
+      name: "Mariany Tenori",
+      role: "Lash Designer e Extensionista de Cílios",
       content: "Atendimento incrível, site lindo e super funcional! Aumentei minhas conversões em 300%.",
       rating: 5,
-      avatar: "JS",
+      avatar: "MT",
     },
     {
       name: "Ana Paula",
@@ -25,11 +25,11 @@ const Testimonials = () => {
       avatar: "AP",
     },
     {
-      name: "Carlos Mendes",
+      name: "Gabriele Tainara",
       role: "Personal Trainer",
       content: "Melhor investimento que fiz para meu negócio. Landing page profissional e com ótima performance.",
       rating: 5,
-      avatar: "CM",
+      avatar: "GT",
     },
   ];
 
