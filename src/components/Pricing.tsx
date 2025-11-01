@@ -54,12 +54,13 @@ const Pricing = () => {
     },
   ];
 
-  const whatsappUrl = "https://wa.me/5515981479735?text=Olá%20Gustavo%2C%20quero%20contratar%20um%20plano!";
+  const whatsappUrl =
+    "https://wa.me/5515981479735?text=Olá%20Gustavo%2C%20quero%20contratar%20um%20plano!";
 
   return (
     <section id="planos" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-card/30 to-background"></div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
@@ -93,12 +94,18 @@ const Pricing = () => {
                     </div>
                   </div>
                 )}
-                
+
                 <CardHeader className="text-center pb-8 pt-8">
                   <CardTitle className="text-2xl mb-2">{plan.name}</CardTitle>
-                  <div className="text-4xl font-bold text-primary mb-2">{plan.price}</div>
-                  <p className="text-xs text-muted-foreground mb-2">{plan.installments}</p>
-                  <p className="text-sm text-muted-foreground">{plan.description}</p>
+                  <div className="text-4xl font-bold text-primary mb-2">
+                    {plan.price}
+                  </div>
+                  <p className="text-xs text-muted-foreground mb-2">
+                    {plan.installments}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    {plan.description}
+                  </p>
                 </CardHeader>
 
                 <CardContent>
@@ -108,7 +115,9 @@ const Pricing = () => {
                         <div className="flex-shrink-0 w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5">
                           <Check className="w-3 h-3 text-primary" />
                         </div>
-                        <span className="text-sm text-muted-foreground">{feature}</span>
+                        <span className="text-sm text-muted-foreground">
+                          {feature}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -121,7 +130,11 @@ const Pricing = () => {
                         : "bg-muted hover:bg-muted/80"
                     }`}
                   >
-                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Escolher {plan.name}
                     </a>
                   </Button>
@@ -132,7 +145,7 @@ const Pricing = () => {
 
           <div className="mt-12 text-center">
             <p className="text-muted-foreground">
-              Todos os planos incluem hospedagem gratuita por 1 ano 🎉
+              Todos os planos incluem hospedagem gratuita por 1 ano!
             </p>
           </div>
         </div>
