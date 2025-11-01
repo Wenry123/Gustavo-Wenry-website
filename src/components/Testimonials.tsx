@@ -9,7 +9,7 @@ const Testimonials = () => {
       content:
         "Melhor investimento que fiz para meu negócio.Depois que meu site ficou pronto, veio diversas pessoas falando que me encontraram através de pesquisarem no Google!",
       rating: 5,
-      avatar: "MS",
+      avatar: "JV",
     },
     {
       name: "Mariana Tavares",
