@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
             <div className="animate-slide-in delay-200">
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
-                24h
+                14 dias
               </div>
               <div className="text-sm text-muted-foreground">
                 Tempo médio de entrega

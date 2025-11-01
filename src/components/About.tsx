@@ -1,11 +1,11 @@
-  import { Code2, Zap, Target } from "lucide-react";
+import { Code2, Zap, Target } from "lucide-react";
 import profileImage from "@/assets/gustavo-profile.png";
 
 const About = () => {
   return (
     <section id="sobre" className="py-24 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/50 to-background"></div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -22,16 +22,17 @@ const About = () => {
 
             <div className="animate-slide-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Quem é{" "}
+                Quem é {" "}
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                   Gustavo Wenry?
                 </span>
               </h2>
-              
+
               <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                Sou desenvolvedor web especializado em Landing Pages de alta conversão.
-                Já ajudei diversos empreendedores a se posicionarem no digital com páginas rápidas,
-                otimizadas e focadas em resultados.
+                Sou desenvolvedor web especializado em Landing Pages de alta
+                conversão. Já ajudei diversos empreendedores a se posicionarem
+                no digital com páginas rápidas, otimizadas e focadas em
+                resultados.
               </p>
 
               <div className="space-y-6">
@@ -42,8 +43,12 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Experiência com React, Node.js e Tailwind</h3>
-                    <p className="text-sm text-muted-foreground">Tecnologias modernas para sites rápidos e responsivos</p>
+                    <h3 className="font-semibold mb-1">
+                      Experiência com React, Node.js e Tailwind
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Tecnologias modernas para sites rápidos e responsivos
+                    </p>
                   </div>
                 </div>
 
@@ -54,8 +59,13 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Foco total em SEO e performance</h3>
-                    <p className="text-sm text-muted-foreground">Seu site bem posicionado no Google com carregamento ultrarrápido</p>
+                    <h3 className="font-semibold mb-1">
+                      Foco total em SEO e performance
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Seu site bem posicionado no Google com carregamento
+                      ultrarrápido
+                    </p>
                   </div>
                 </div>
 
@@ -66,8 +76,12 @@ const About = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Atendimento estratégico e personalizado</h3>
-                    <p className="text-sm text-muted-foreground">Cada projeto pensado para gerar resultados reais</p>
+                    <h3 className="font-semibold mb-1">
+                      Atendimento estratégico e personalizado
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Cada projeto pensado para gerar resultados reais
+                    </p>
                   </div>
                 </div>
               </div>
