@@ -29,12 +29,12 @@ const About = () => {
               </h2>
 
               <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                Sou desenvolvedor web especializado em Landing Pages de alta
+                Sou desenvolvedor web especializado em Sites de alta
                 conversão. Já ajudei diversos empreendedores a se posicionarem
                 no digital com páginas rápidas, otimizadas e focadas em
                 resultados.
               </p>
-
+    
               <div className="space-y-6">
                 <div className="flex gap-4 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors">
                   <div className="flex-shrink-0">

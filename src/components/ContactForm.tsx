@@ -27,7 +27,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     // Create WhatsApp message
-    const message = `Olá Gustavo, acabei de visitar seu site e quero uma Landing Page!
+    const message = `Olá Gustavo, acabei de visitar sua pagina e quero um Site Profissional para o meu negocio!
 Meu nome é ${formData.name}, meu número é ${formData.whatsapp}, sou do nicho ${formData.business} e estou buscando ${formData.needs}.`;
 
     const whatsappUrl = `https://wa.me/5515981479735?text=${encodeURIComponent(

@@ -11,7 +11,7 @@ const Footer = () => {
                 GUSTAVO WENRY
               </div>
               <p className="text-sm text-muted-foreground">
-                O seu desenvolvedor web especializado em Landing Pages de alta
+                O seu desenvolvedor web especializado em Sites Profissionais de alta
                 conversão.
               </p>
             </div>

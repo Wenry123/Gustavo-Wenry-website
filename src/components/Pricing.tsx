@@ -6,8 +6,8 @@ const Pricing = () => {
   const plans = [
     {
       name: "Start",
-      price: "R$ 597",
-      installments: "em até 3x sem juros",
+      price: "",
+      installments: "",
       description: "Página simples com CTA para WhatsApp",
       features: [
         "Design profissional",
@@ -20,8 +20,8 @@ const Pricing = () => {
     },
     {
       name: "Profissional",
-      price: "R$ 997",
-      installments: "em até 3x sem juros",
+      price: "",
+      installments: "",
       description: "Página completa com copy e design de alta conversão",
       features: [
         "Tudo do plano Start",
@@ -37,8 +37,8 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "R$ 1.497",
-      installments: "em até 3x sem juros",
+      price: " ",
+      installments: "",
       description: "Página com SEO, Google Analytics e acompanhamento mensal",
       features: [
         "Tudo do plano Profissional",
