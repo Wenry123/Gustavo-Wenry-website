@@ -11,8 +11,8 @@ const Footer = () => {
                 GUSTAVO WENRY
               </div>
               <p className="text-sm text-muted-foreground">
-                O seu desenvolvedor web especializado em Sites Profissionais de alta
-                conversão.
+                O seu desenvolvedor web especializado em Sites Profissionais de
+                alta conversão.
               </p>
             </div>
 
@@ -85,6 +85,32 @@ const Footer = () => {
                   >
                     <MessageCircle className="w-4 h-4" />
                     (15) 98147-9735
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/gustavo-wenry/"
+                    target="_blank"
+                    rel="noopener.noreferrer"
+                    className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="w-4 h-4"
+                    >
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                      <rect width="4" height="12" x="2" y="9" />
+                      <circle cx="4" cy="4" r="2" />
+                    </svg>
+                    Gustavo Wenry
                   </a>
                 </li>
                 <li>
